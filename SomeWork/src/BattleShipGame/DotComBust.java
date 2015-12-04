@@ -3,6 +3,11 @@ package BattleShipGame;
 import java.util.ArrayList;
 
 public class DotComBust {
+    public static void main (String[] args) {
+        DotComBust game = new DotComBust();
+        game.setUpGame();
+        game.startPlaying();
+    }
     private GameHelper helper = new GameHelper();
     private ArrayList<DotCom> dotComsList = new ArrayList<DotCom>();
     private int numOfGuesses = 0;
@@ -75,10 +80,6 @@ public class DotComBust {
             System.out.println("Профессионалы уничтожают корабли меньше чем за 13 попыток");
         }
     }
-    public static void main (String[] args) {
-        DotComBust game = new DotComBust();
-        game.setUpGame();
-        game.startPlaying();
-    }
+
 }
 
