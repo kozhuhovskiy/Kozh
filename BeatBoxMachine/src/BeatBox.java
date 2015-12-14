@@ -26,7 +26,7 @@ public class BeatBox {
     }
 
     private void buildGUI() {
-        theFrame = new JFrame("Cyber BaetBox");
+        theFrame = new JFrame("BEATBOX MACHINE");
         theFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         BorderLayout layout = new BorderLayout();
         JPanel background = new JPanel(layout);
